@@ -1,22 +1,24 @@
-function add(x,y){
-  return x+y
+function add(a,b){
+  return a+b
 }
 
-function subtract(x,y){
-  return x-y
+function subtract(a,b){
+  return a-b
 }
 
-function multiply(x,y){
-  return x*y
+function multiply(a,b){
+  return a*b
 }
 
-functiondivide(x,y){
-  return x/y
+functiondivide(a,b){
+  return a/b
 }
 
 function makeInt(string){
   parseInt(string,10)
 }
+
+
 
 function preserveDecimal(string){
   parseFloat(string)
