@@ -1,10 +1,18 @@
-function add()
+function add(x,y){
+  return x+=y
+}
 
-subtract()
+function subtract(x,y){
+  return x-y
+}
 
-multiply()
+function multiply(x,y){
+  return x*y
+}
 
-divide()
+functiondivide(x,y){
+  return x/y
+}
 
 function makeInt(string){
   parseInt(string,10)
