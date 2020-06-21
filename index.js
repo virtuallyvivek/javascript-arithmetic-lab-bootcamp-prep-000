@@ -18,7 +18,13 @@ function makeInt(string){
   parseInt(string,10)
 }
 
+function increment(n){
+  return n++
+}
 
+function increment(n){
+  return n++
+}
 
 function preserveDecimal(string){
   parseFloat(string)
