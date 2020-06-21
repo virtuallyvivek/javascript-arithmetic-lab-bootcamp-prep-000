@@ -3,5 +3,5 @@ function makeInt(string){
 }
 
 function preserveDecimal(string){
-  
+  parseFloat(string)
 }
