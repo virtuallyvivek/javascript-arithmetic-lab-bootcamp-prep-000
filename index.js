@@ -14,9 +14,6 @@ function divide(a,b){
   return a/b
 }
 
-function makeInt(string){
-  parseInt(string,10)
-}
 
 function increment(n){
   return n++
@@ -24,6 +21,10 @@ function increment(n){
 
 function decrement(n){
   return n--
+}
+
+function makeInt(string){
+  parseInt(string,10)
 }
 
 function preserveDecimal(string){
